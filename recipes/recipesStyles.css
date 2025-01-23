@@ -1,0 +1,40 @@
+body {
+    background-color: #d3d3d3;
+    margin: 25px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2, ul, p {
+    margin: 15px;
+}
+
+a {
+    display: block;
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    margin: 10px auto;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(1, 97, 1);
+}
